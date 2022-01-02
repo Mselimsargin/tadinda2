@@ -20,6 +20,7 @@ git dosyamız şu an public onu private yapıp nasıl kendi aramızda çalışma
 3-chef paneli sadece masa numarası ve yiyecekleri görüleceği kısım, chef kullanıcı adı ve sifre ile girecek, hazır olan yiyecekte tuşa basıp kendi tarafınfa silebilecek,kendisine bildirim gelecek
 4-barista paneli sadece çeçeklerin görüleceği kısım 
 5-payment ksımı burada masa numarası ve toplam tutar yazacak tuşa tıklandığında bir ekran açılıp tüm ürünler adetleri ve fiyatları yazacak kart veya nakit seçeneğine tıklandığı zaman cihazdan fiş cıkarılacak müsteriye verilmek üzere(fiş kısmını selimhan hoca arastıracak)
+6-Normal dışarıdaki insanların bizim ürünlerimizi görebileceği ve booking yapabileceği bir web sitesi. Burada yorum yazabilecek bizim hakkımızda bilgi alabilecek menümüzü görebilecek adresimizi bilecek diğer firmalarımızın logoloru olacak ve sosyal medya hesplarımızın linkleri olacak.
 css tasarımları Ömer, selimhan ve hilmi hocamız tahmii süre iki hafta
 backend kısmının iskeletinin çıkarılması ve hangi dilde yazılacak çoğunluk php biliyor bu aşamada ama diğer altenatifler harun ve Muhammed hocamızdan gelen gçrüşlere güre belirlenebileceği 
 Bir sonraki toplantıda herkesin kendi kısımları ile alakalı sunum yapacağı karalaştırılmıstır. 
