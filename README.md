@@ -8,3 +8,10 @@ Web sitesinin yapması gereken konular:
 5-	Bir de marketimiz var orada ürünü okutunca ekrandan ödeme alınacak(bu sonraki kısım) sonra yapılabilir. Bu da aynı dashboard üzerinden görülebilecek. 
 6-	Başka yerlerde açılan restaurantlarımız içinde web sitesi üzerinden yer seçme özelliği eklenebilecek. Restaurantta ki garson zaten giriş yaptığı zaman siparişleri o şubenin hesabına eklenecek. 
 7-	Benim yaptığım template internetten buldum çok zaman kaybı olmasın diye bunu kullanmak zorunda değiliz. Sizlerin yönlendrimesi ile bir şeyler yapabiliriz. Bazı html dosyalarında güncellme yapmadım eski haliyle duruyor.
+
+02.01.2021 ilk giriş ya Allah Ya Bismillah
+-toplu çalışma ile alakalı harun ve Muhammed hocamla görüşülecek.
+-git private yapma konusu Muhammed Harun hocamla görüşülecek.
+6 panel olacak admin kullanıcı açma ürün ekleme ,garson masalardan sipariş alacağı yemek ve içeçek menüsü çıkacak masayı seçerek, chef yemekler düşecek bildirim olabilir miktar yazacak masa numarası ile beraber hazır olunca işaretleyip silecek.,barista aynı şekilde içecek dşecek. masaları görecek. sırayla sıralanacak. masa masa da gruplanabilir. payment yerinde toplam tutar cash veya credit card seçeceği garsondan silinecek. fişi çıkarılacak. (selimhan hoca araştıracak.) 
+panellerin tasarım önerileri selimhan ve ömer hocam css. 
+Muhammed, Harun , Hilmi php kullanılacak. iSKELET TASARIMLARI BACKEND TASARIMLARI. 
