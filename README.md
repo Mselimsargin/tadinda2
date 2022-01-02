@@ -13,6 +13,6 @@ Web sitesinin yapması gereken konular:
 -toplu çalışma ile alakalı harun ve Muhammed hocamla görüşülecek.
 -git private yapma konusu Muhammed Harun hocamla görüşülecek.
 6 panel olacak admin kullanıcı açma ürün ekleme ,garson masalardan sipariş alacağı yemek ve içeçek menüsü çıkacak masayı seçerek, chef yemekler düşecek bildirim olabilir miktar yazacak masa numarası ile beraber hazır olunca işaretleyip silecek.,barista aynı şekilde içecek dşecek. masaları görecek. sırayla sıralanacak. masa masa da gruplanabilir. payment yerinde toplam tutar cash veya credit card seçeceği garsondan silinecek. fişi çıkarılacak. (selimhan hoca araştıracak.) 
-panellerin tasarım önerileri selimhan ve ömer hocam css. 
-Muhammed, Harun , Hilmi php kullanılacak. iSKELET TASARIMLARI BACKEND TASARIMLARI. 
-Her hafta cuma cts veya pazar görüşülecek. duyuru yapılacak.
+panellerin tasarım önerileri selimhan ve ömer hocam hilmi hocam  css. 
+Muhammed, Harun  php kullanılacak. iSKELET TASARIMLARI BACKEND TASARIMLARI. 
+Her hafta cuma cts veya pazar görüşülecek. duyuru yapılacak. bir sonraki toplantıda çalışma ve taslaklarını yansıtması.
