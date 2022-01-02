@@ -10,9 +10,16 @@ Web sitesinin yapması gereken konular:
 7-	Benim yaptığım template internetten buldum çok zaman kaybı olmasın diye bunu kullanmak zorunda değiliz. Sizlerin yönlendrimesi ile bir şeyler yapabiliriz. Bazı html dosyalarında güncellme yapmadım eski haliyle duruyor.
 
 02.01.2021 ilk giriş ya Allah Ya Bismillah
--toplu çalışma ile alakalı harun ve Muhammed hocamla görüşülecek.
--git private yapma konusu Muhammed Harun hocamla görüşülecek.
-6 panel olacak admin kullanıcı açma ürün ekleme ,garson masalardan sipariş alacağı yemek ve içeçek menüsü çıkacak masayı seçerek, chef yemekler düşecek bildirim olabilir miktar yazacak masa numarası ile beraber hazır olunca işaretleyip silecek.,barista aynı şekilde içecek dşecek. masaları görecek. sırayla sıralanacak. masa masa da gruplanabilir. payment yerinde toplam tutar cash veya credit card seçeceği garsondan silinecek. fişi çıkarılacak. (selimhan hoca araştıracak.) 
-panellerin tasarım önerileri selimhan ve ömer hocam hilmi hocam  css. 
-Muhammed, Harun  php kullanılacak. iSKELET TASARIMLARI BACKEND TASARIMLARI. 
-Her hafta cuma cts veya pazar görüşülecek. duyuru yapılacak. bir sonraki toplantıda çalışma ve taslaklarını yansıtması.
+.
+Her hafta hafta sonu herkese müsait bir saatte toplanıp haftalık istişare edileceği,
+Github üzerinden toplu çalışma ile alakalı Harun ve Muhammed hocam bizlere haftaya bilgi verebileceği,
+git dosyamız şu an public onu private yapıp nasıl kendi aramızda çalışma yapılacağı ile alakalı Harun hocamızın bilgi verebileceği,
+6 panel olacağı 
+1-admin paneli gerekli grafiklerin çizdirileceği günlük ve haftalık raporlama yapılacak ve istendiğinde pdf formatına aktarılabileceği,ürün ekleme yeri olacağı bu kısımda ürün adı fiyatı ürün ile alakalı bilgiler resimi gibi bilgiler girilebilecek bu bilgiler diğer panellerde gösterilecek, kullanıcı eklenebilecek
+2-garson paneli kendi kullanıcı adı ve şifresi ile girildiği zaman ürn adını girip masa numarası seçip sipariş alabileceği kısım,
+3-chef paneli sadece masa numarası ve yiyecekleri görüleceği kısım, chef kullanıcı adı ve sifre ile girecek, hazır olan yiyecekte tuşa basıp kendi tarafınfa silebilecek,kendisine bildirim gelecek
+4-barista paneli sadece çeçeklerin görüleceği kısım 
+5-payment ksımı burada masa numarası ve toplam tutar yazacak tuşa tıklandığında bir ekran açılıp tüm ürünler adetleri ve fiyatları yazacak kart veya nakit seçeneğine tıklandığı zaman cihazdan fiş cıkarılacak müsteriye verilmek üzere(fiş kısmını selimhan hoca arastıracak)
+css tasarımları Ömer, selimhan ve hilmi hocamız tahmii süre iki hafta
+backend kısmının iskeletinin çıkarılması ve hangi dilde yazılacak çoğunluk php biliyor bu aşamada ama diğer altenatifler harun ve Muhammed hocamızdan gelen gçrüşlere güre belirlenebileceği 
+Bir sonraki toplantıda herkesin kendi kısımları ile alakalı sunum yapacağı karalaştırılmıstır. 
