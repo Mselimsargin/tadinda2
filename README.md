@@ -24,3 +24,6 @@ git dosyamız şu an public onu private yapıp nasıl kendi aramızda çalışma
 css tasarımları Ömer, selimhan ve hilmi hocamız tahmii süre iki hafta
 backend kısmının iskeletinin çıkarılması ve hangi dilde yazılacak çoğunluk php biliyor bu aşamada ama diğer altenatifler harun ve Muhammed hocamızdan gelen gçrüşlere güre belirlenebileceği 
 Bir sonraki toplantıda herkesin kendi kısımları ile alakalı sunum yapacağı karalaştırılmıstır. 
+08.01.2022 
+toplantıların kayıt altına alınması.
+git üzerinden çalışılması için araştırma private yapmak(selimhan sargın)
