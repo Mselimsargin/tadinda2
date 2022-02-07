@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Eatio - Restaurant Food Order Bootstrap Admin Dashboard</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.png">
+    	<link href="./vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="sk-three-bounce">
+            <div class="sk-child sk-bounce1"></div>
+            <div class="sk-child sk-bounce2"></div>
+            <div class="sk-child sk-bounce3"></div>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+                 <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <a href="index.html" class="brand-logo">
+                <h3 class="brand-title">Tadında</h3> 
+            </a>
+                
+                
+
+            <div class="nav-control">
+                <div class="hamburger">
+                    <span class="line"></span><span class="line"></span><span class="line"></span>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+		
+
+		
+		<!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">
+            <div class="header-content">
+                <nav class="navbar navbar-expand">
+                    <div class="collapse navbar-collapse justify-content-between">
+                        <div class="header-left">
+                            
+                        </div>
+
+                        <ul class="navbar-nav header-right">
+							<li class="nav-item dropdown notification_dropdown">
+                                <a class="nav-link dz-fullscreen primary" href="#">
+									<svg id="Capa_1" enable-background="new 0 0 482.239 482.239" height="22" viewBox="0 0 482.239 482.239" width="22" xmlns="http://www.w3.org/2000/svg"><path d="m0 17.223v120.56h34.446v-103.337h103.337v-34.446h-120.56c-9.52 0-17.223 7.703-17.223 17.223z" fill=""/><path d="m465.016 0h-120.56v34.446h103.337v103.337h34.446v-120.56c0-9.52-7.703-17.223-17.223-17.223z" fill=""/><path d="m447.793 447.793h-103.337v34.446h120.56c9.52 0 17.223-7.703 17.223-17.223v-120.56h-34.446z" fill="" /><path d="m34.446 344.456h-34.446v120.56c0 9.52 7.703 17.223 17.223 17.223h120.56v-34.446h-103.337z" fill=""/></svg>
+                                </a>
+							</li>
+							
+
+                            <li class="nav-item dropdown header-profile">
+                                <a class="nav-link" href="#" role="button" data-toggle="dropdown">
+									<div class="header-info">
+										<span>Hello, <strong>Admin</strong></span>
+									</div>
+                                    <img  width="20" alt=""/>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a href="./app-profile.html" class="dropdown-item ai-icon">
+                                        <svg id="icon-user1" xmlns="http://www.w3.org/2000/svg" class="text-primary" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                                        <span class="ml-2">Profile </span>
+                                    </a>
+                                    
+                                    <a href="./page-login.html" class="dropdown-item ai-icon">
+                                        <svg id="icon-logout" xmlns="http://www.w3.org/2000/svg" class="text-danger" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+                                        <span class="ml-2">Logout </span>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="deznav">
+            <div class="deznav-scroll">
+				<ul class="metismenu" id="menu">
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+							<i class="flaticon-381-networking"></i>
+							<span class="nav-text">Dashboard</span>
+						</a>
+                        <ul aria-expanded="false">
+							<li><a href="index.html">Dashboard</a></li>
+							<li><a href="page-analytics.html">Analytics</a></li>
+							<li><a href="page-review.html">Review</a></li>
+							
+							<li><a href="page-order-list.html">Order List</a></li>
+							
+						</ul>
+                    </li>
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+							<i class="flaticon-381-television"></i>
+							<span class="nav-text">Apps</span>
+						</a>
+                        <ul aria-expanded="false">
+                            <li><a href="page-user.html">User</a></li>
+                            
+                            <li><a href="./app-calender.html">Calendar</a></li>
+							<li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Shop</a>
+                                <ul aria-expanded="false">
+                                   	<li><a href="./ecom-product-list.html">Product List</a></li>
+									<li><a href="./ecom-invoice.html">Report</a></li>
+								</ul>
+                            </li>
+                        </ul>
+                    </li>	
+
+                </ul>
+            
+			
+			</div>
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+            <div class="container-fluid">
+                <div class="row page-titles mx-0">
+                  
+
+						<div class="dropdown custom-dropdown">
+							<div class="btn btn-sm btn-primary light d-flex align-items-center svg-btn" data-toggle="dropdown">
+								<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg"><g><path d="M22.4281 2.856H21.8681V1.428C21.8681 0.56 21.2801 0 20.4401 0C19.6001 0 19.0121 0.56 19.0121 1.428V2.856H9.71606V1.428C9.71606 0.56 9.15606 0 8.28806 0C7.42006 0 6.86006 0.56 6.86006 1.428V2.856H5.57206C2.85606 2.856 0.560059 5.152 0.560059 7.868V23.016C0.560059 25.732 2.85606 28.028 5.57206 28.028H22.4281C25.1441 28.028 27.4401 25.732 27.4401 23.016V7.868C27.4401 5.152 25.1441 2.856 22.4281 2.856ZM5.57206 5.712H22.4281C23.5761 5.712 24.5841 6.72 24.5841 7.868V9.856H3.41606V7.868C3.41606 6.72 4.42406 5.712 5.57206 5.712ZM22.4281 25.144H5.57206C4.42406 25.144 3.41606 24.136 3.41606 22.988V12.712H24.5561V22.988C24.5841 24.136 23.5761 25.144 22.4281 25.144Z" fill="#2F4CDD"></path></g></svg>
+								<div class="text-left ml-3">
+									<span class="d-block fs-16">Filter Periode</span>
+									<small class="d-block fs-13">4 June 2020 - 4 July 2020</small>
+								</div>
+								<i class="fa fa-angle-down scale5 ml-3"></i>
+							</div>
+							<div class="dropdown-menu dropdown-menu-right">
+								<a class="dropdown-item" href="#">4 June 2020 - 4 July 2020</a>
+								<a class="dropdown-item" href="#">5 july 2020 - 4 Aug 2020</a>
+							</div>
+						</div>
+						
+                   
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <div class="card mt-3">
+                            
+                                    
+                            <div class="card-body">
+                                <div class="row mb-5">
+                                    <div class="mt-4 col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                                       
+                                        
+                                    </div>
+                                    <div class="mt-4 col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                                        
+                                    </div>
+                                    <div class="mt-4 col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-lg-end justify-content-md-center justify-content-xs-start">
+                                        <div class="row align-items-center" style="font-size: 0.9rem;">
+                                            <div class="col-auto"> <br>
+												<h6>Report for  <strong>Tadında</strong> between 4 June 2020 - 4 July 2020</h6>
+                                            </div>
+                                            <div class="col-auto"> <img src="https://apirone.com/api/v1/qr?message=bitcoin%3A1DonateWffyhwAjskoEwXt83pHZxhLTr8H%3Famount%3D0.15050000" class="img-fluid" alt="" style="max-width: 114px;"> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th class="center">Sıra</th>
+                                                <th>Category</th>
+                                                <th>Item</th>
+                                                <th class="right">Cost</th>
+                                                <th class="center">Qty</th>
+                                                <th class="right">Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="center">1</td>
+                                                <td class="left strong">Drink</td>
+                                                <td class="left">Pepsi</td>
+                                                <td class="right">R 20</td>
+                                                <td class="center">1</td>
+                                                <td class="right">R 999,00</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="center">2</td>
+                                                <td class="left">Clays</td>
+                                                <td class="left">Chicken Clay</td>
+                                                <td class="right">R 20</td>
+                                                <td class="center">20</td>
+                                                <td class="right">R 3.000,00</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="center">3</td>
+                                                <td class="left">Pide</td>
+                                                <td class="left">Rumi</td>
+                                                <td class="right">R 20</td>
+                                                <td class="center">1</td>
+                                                <td class="right">R 499,00</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="center">4</td>
+                                                <td class="left">Pide</td>
+                                                <td class="left">Mixed Pide</td>
+                                                <td class="right">R 20</td>
+                                                <td class="center">1</td>
+                                                <td class="right">R 3.999,00</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-4 col-sm-5"> </div>
+                                    <div class="col-lg-4 col-sm-5 ml-auto">
+                                        <table class="table table-clear">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="left"><strong>Subtotal</strong></td>
+                                                    <td class="right">R 8.497,00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="left"><strong>Costs</strong></td>
+                                                    <td class="right">R 1,699,40</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td class="left"><strong>Total</strong></td>
+                                                    <td class="right"><strong>R 7.477,36</strong>
+                                                        
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+
+        
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <!-- Required vendors -->
+    <script src="./vendor/global/global.min.js"></script>
+	<script src="./vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script src="./vendor/chart.js/Chart.bundle.min.js"></script>
+    <script src="./js/custom.min.js"></script>
+	<script src="./js/deznav-init.js"></script>
+	<!-- Apex Chart -->
+	<script src="./vendor/apexchart/apexchart.js"></script>
+    
+    <script src="./vendor/highlightjs/highlight.pack.min.js"></script>
+    <!-- Circle progress -->
+
+
+
+</body>
+
+</html>

@@ -1,29 +1,85 @@
-# tadinda
+# Eatio-Bootstrap-Dashboard
 
-Web sitesinin yapması gereken konular:
-1-	Dışarıdan sipariş alabilecek bir web sitesi olması. Rezervasyon yeri de eklenecek. Ürünlerin resimleri olacak ve fiyatları eklenecek. Arama butonu olacak. Ürünlerin kategorileştirildiği kısım olacak yanı içecek tatlı gibi.
-2-	Restaurant içerisinde masalardan sipariş almak için bir web sitesi yazılacak. Aynı web sitesi olabilir. Ama garson kendi kullanıcı adı ve şifresi ile girebilecek. Tüm siparişlerin aynı database e düşmesi gerekiyor. Chef kendi bilgileri ile girdiği zaman sadece masaları ve yemek siparişlerini görecek. Hazır olduğu zaman bir tık ile silebilecek. Sayfa otomatik olarak belli aralıklarla yenilenecek. Barista tarafı da sadece kendisine ait kısımları görecek. Ve bir tık ile silebilecek hazır olduğu zaman. Ödeme kısmına ise müşteri ödemek için geldiğinde kasaya bakan kişi kendi bilgileri ile girip görebilecek.  Kart veya nakit kısımları olacak ve öde tuşuna basınca fiş basan makineden çıktı alınacak.(bu zor değil cihaz wifi ile bağlanıyor zaten. 😊))
-3-	Sonra dashboard kısmı olacak burada grafikler olacak toplam satışı gösteren ve tarih girildiği zaman o günün siparişlerinden elde edilen miktar görülecek. Ürün eklenebilecek sayfa olacak.  Kullanıcı eklenebilecek.
-4-	Bu sitenin deli bite isminde ki restaurantımız içinde hızlıca adapte edilebilir olması gerekiyor. Ama dashboardda tüm restaurantlarımızı görebileceğiz. 
-5-	Bir de marketimiz var orada ürünü okutunca ekrandan ödeme alınacak(bu sonraki kısım) sonra yapılabilir. Bu da aynı dashboard üzerinden görülebilecek. 
-6-	Başka yerlerde açılan restaurantlarımız içinde web sitesi üzerinden yer seçme özelliği eklenebilecek. Restaurantta ki garson zaten giriş yaptığı zaman siparişleri o şubenin hesabına eklenecek. 
-7-	Benim yaptığım template internetten buldum çok zaman kaybı olmasın diye bunu kullanmak zorunda değiliz. Sizlerin yönlendrimesi ile bir şeyler yapabiliriz. Bazı html dosyalarında güncellme yapmadım eski haliyle duruyor.
 
-02.01.2021 ilk giriş ya Allah Ya Bismillah
-.
-Her hafta hafta sonu herkese müsait bir saatte toplanıp haftalık istişare edileceği,
-Github üzerinden toplu çalışma ile alakalı Harun ve Muhammed hocam bizlere haftaya bilgi verebileceği,
-git dosyamız şu an public onu private yapıp nasıl kendi aramızda çalışma yapılacağı ile alakalı Harun hocamızın bilgi verebileceği,
-6 panel olacağı 
-1-admin paneli gerekli grafiklerin çizdirileceği günlük ve haftalık raporlama yapılacak ve istendiğinde pdf formatına aktarılabileceği,ürün ekleme yeri olacağı bu kısımda ürün adı fiyatı ürün ile alakalı bilgiler resimi gibi bilgiler girilebilecek bu bilgiler diğer panellerde gösterilecek, kullanıcı eklenebilecek
-2-garson paneli kendi kullanıcı adı ve şifresi ile girildiği zaman ürn adını girip masa numarası seçip sipariş alabileceği kısım,
-3-chef paneli sadece masa numarası ve yiyecekleri görüleceği kısım, chef kullanıcı adı ve sifre ile girecek, hazır olan yiyecekte tuşa basıp kendi tarafınfa silebilecek,kendisine bildirim gelecek
-4-barista paneli sadece çeçeklerin görüleceği kısım 
-5-payment ksımı burada masa numarası ve toplam tutar yazacak tuşa tıklandığında bir ekran açılıp tüm ürünler adetleri ve fiyatları yazacak kart veya nakit seçeneğine tıklandığı zaman cihazdan fiş cıkarılacak müsteriye verilmek üzere(fiş kısmını selimhan hoca arastıracak)
-6-Normal dışarıdaki insanların bizim ürünlerimizi görebileceği ve booking yapabileceği bir web sitesi. Burada yorum yazabilecek bizim hakkımızda bilgi alabilecek menümüzü görebilecek adresimizi bilecek diğer firmalarımızın logoloru olacak ve sosyal medya hesplarımızın linkleri olacak.
-css tasarımları Ömer, selimhan ve hilmi hocamız tahmii süre iki hafta
-backend kısmının iskeletinin çıkarılması ve hangi dilde yazılacak çoğunluk php biliyor bu aşamada ama diğer altenatifler harun ve Muhammed hocamızdan gelen gçrüşlere güre belirlenebileceği 
-Bir sonraki toplantıda herkesin kendi kısımları ile alakalı sunum yapacağı karalaştırılmıstır. 
-08.01.2022 
-toplantıların kayıt altına alınması.
-git üzerinden çalışılması için araştırma private yapmak(selimhan sargın)
+>Eatio- Restaurant Food Order Bootstrap Admin Dashboard
+
+<!-- [![NPM Version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Downloads Stats][npm-downloads]][npm-url] -->
+
+Eatio is a Free Bootstrap Restaurant Admin Template which will help you to speed up your project and design your own dashboard UI. Users will love it.
+
+![](header.png)
+
+## Installation
+
+This section guides you to install all required software and libraries in order to fully utilize Eatio for your project
+
+
+### Install Node.js
+Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js is required in order to run the Davur build tools. Download the latest version of Node and install it: nodejs.org/en/download/
+
+
+### Update your NPM
+Npm is the package manager for JavaScript and the world’s largest software registry. Npm is a separate project from Node.js, and tends to update more frequently. As a result, even if you’ve just downloaded Node.js (and therefore npm), you’ll probably need to update your npm.
+
+```sh
+npm install --global npm@latest
+```
+
+### Install all dependencies
+If you want to update or develop this theme, you need to install all dependencies by running:
+Windows:
+
+```sh
+npm install
+```
+
+## Folder Directories -
+1. css
+2. icons
+3. images
+4. js
+5. scss
+6. vendor
+7. index.html
+8. app-calender.html
+9. ...
+
+## Plugins included 
+[amcharts](https://www.amcharts.com)
+[aos](https://michalsnik.github.io/aos)
+[apexchart](https://apexcharts.com)
+[bootstrap](https://getbootstrap.com)
+[bootstrap4-notify](http://bootstrap-notify.remabledesigns.com)
+[bootstrap-daterangepicker](https://www.daterangepicker.com)
+[bootstrap-material-datetimepicker](https://t00rk.github.io/bootstrap-material-datetimepicker)
+[bootstrap-multiselect](https://github.com/davidstutz/bootstrap-multiselect)
+[bootstrap-select](https://developer.snapappointments.com/bootstrap-select)
+[bootstrap-tagsinput](https://bootstrap-tagsinput.github.io/bootstrap-tagsinput/examples)
+[bootstrap-touchspin](https://www.virtuosoft.eu/code/bootstrap-touchspin)
+[bootstrap-v4-rtl](https://bootstrap.rtlcss.com)
+[chart.js](https://www.chartjs.org)
+[chartist](https://gionkunz.github.io/chartist-js)
+[chartist-plugin-tooltips](https://github.com/tmmdata/chartist-plugin-tooltip)
+[clockpicker](https://weareoutman.github.io/clockpicker)
+[datatables](https://datatables.net)
+[dropzone](https://www.dropzonejs.com)
+[flot](https://www.flotcharts.org)
+[flot-spline](https://github.com/miloszfalinski/jquery.flot.spline)
+[fullcalendar](https://fullcalendar.io)
+[highlightjs](https://highlightjs.org)
+
+
+## Creator
+
+Kelvin Conrad – [Twitter](https://twitter.com/Klvnconrad) – klvnconrad@gmail.com
+
+
+## Contributing
+
+1. Fork it (<https://github.com/kelvinconrad/Eatio-Bootstrap-Dashboard/fork>)
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
